@@ -68,5 +68,19 @@ namespace Tugas1
                 }
             }
         }
+        static void main(string[] args)
+        {
+            // Creating the object of the BubbleSort class
+            program mylist = new program();
+
+            // pemanggilan fungsi untuk menerima elemen array
+            mylist.read();
+            // pemanggilan fungsi untuk mengurutkan array
+            mylist.BubbleSortArray();
+            // pemanggilan fungsi untuk menampilkan array yang tersusun 
+            mylist.display();
+
+        }
     }
 }
+    
