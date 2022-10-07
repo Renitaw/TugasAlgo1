@@ -37,3 +37,5 @@ namespace Tugas1
                 a[i] = Int32.Parse(s1);
             }
         }
+    }
+}
