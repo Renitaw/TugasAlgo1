@@ -72,7 +72,7 @@ namespace Tugas1
         {
             // Creating the object of the BubbleSort class
             program mylist = new program();
-
+            
             // pemanggilan fungsi untuk menerima elemen array
             mylist.read();
             // pemanggilan fungsi untuk mengurutkan array
